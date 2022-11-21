@@ -9,7 +9,12 @@ Bikeshare
 Python file to analyze bikeshare data for 3 cities
 
 ### Files used
-Include the files used
+Use data files:
+chicago.csv
+washington.csv
+new_york_city.csv
 
+and run with file:
+bikeshare.py
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

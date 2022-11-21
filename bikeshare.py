@@ -213,7 +213,7 @@ def user_info(df, city):
         print("\nNumber of Customers: ", customer_count)
         print("Number of Subscribers: ", subscriber_count)
 
-def raw_data(df):
+def request_raw_data(df):
     """Asks user if they'd like to see raw data from the csv file"""
     row_num = 0
     while True:
@@ -237,7 +237,7 @@ def main():
         popular_station_and_trip(df)
         trip_duration(df)
         user_info(df, city)
-        raw_data(df)
+        request_raw_data(df)
 
         #restart program prompt
         restart_program = input("\nWould you like to start over? Type 'Yes' for yes or 'No' for no.\n").title()

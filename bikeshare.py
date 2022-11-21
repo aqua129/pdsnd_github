@@ -93,7 +93,7 @@ def user_input():
     return city, month, day
 #End of city, day and month user input statements
 
-def load_data(city, month, day):
+def add_data(city, month, day):
     """
     loads data for the specified city and filters by month and day if applicable.
     Args:
@@ -179,7 +179,7 @@ def user_info(df, city):
 
     #used following url to learn counter and how to import it
     #https://stackabuse.com/count-number-of-word-occurrences-in-list-python/
-    
+
     if city == "Chicago" or city == "New York City":
         df_gender_counts = Counter(df["Gender"])
         df_user_type_counts = Counter(df["User Type"])
@@ -231,7 +231,7 @@ def raw_data(df):
 def main():
     while True:
         city, month, day = user_input()
-        df = load_data(city, month, day)
+        df = add_data(city, month, day)
 
         popular_time_of_travel(df)
         popular_station_and_trip(df)

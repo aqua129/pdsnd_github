@@ -1,5 +1,3 @@
-##This is the README file for the Git Course
-
 ### Date created
 Created on 2022/11/20
 ### Project Title
@@ -16,5 +14,6 @@ new_york_city.csv
 
 and run with file:
 bikeshare.py
+
 ### Credits
 Please see readme.txt for credits for python coding

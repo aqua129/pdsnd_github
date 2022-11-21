@@ -83,7 +83,7 @@ def user_input():
                 #break
             if day in ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"):
                 break
-            #break
+
 
     #no filter
     if time_filter == "none":
@@ -253,7 +253,6 @@ def main():
             break
         elif restart_program == "Yes":
             continue
-
 if __name__ == "__main__":
         main()
 

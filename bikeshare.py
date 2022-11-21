@@ -1,3 +1,6 @@
+#This project is for the Udacity Nanodegree
+#It looks at bikeshare data for chicago, new york city and washington
+
 #start of program
 import pandas as pd
 import numpy as np
@@ -179,7 +182,7 @@ def user_info(df, city):
 
     #used following url to learn counter and how to import it
     #https://stackabuse.com/count-number-of-word-occurrences-in-list-python/
-    
+
     if city == "Chicago" or city == "New York City":
         df_gender_counts = Counter(df["Gender"])
         df_user_type_counts = Counter(df["User Type"])

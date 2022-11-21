@@ -6,7 +6,7 @@ Created on 2022/11/20
 Bikeshare
 
 ### Description
-
+Python file to analyze bikeshare data for 3 cities
 
 ### Files used
 Include the files used

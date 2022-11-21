@@ -96,7 +96,7 @@ def user_input():
     return city, month, day
 #End of city, day and month user input statements
 
-def load_data(city, month, day):
+def add_data(city, month, day):
     """
     loads data for the specified city and filters by month and day if applicable.
     Args:
@@ -216,7 +216,7 @@ def user_info(df, city):
         print("\nNumber of Customers: ", customer_count)
         print("Number of Subscribers: ", subscriber_count)
 
-def raw_data(df):
+def request_raw_data(df):
     """Asks user if they'd like to see raw data from the csv file"""
     row_num = 0
     while True:
@@ -234,13 +234,13 @@ def raw_data(df):
 def main():
     while True:
         city, month, day = user_input()
-        df = load_data(city, month, day)
+        df = add_data(city, month, day)
 
         popular_time_of_travel(df)
         popular_station_and_trip(df)
         trip_duration(df)
         user_info(df, city)
-        raw_data(df)
+        request_raw_data(df)
 
         #restart program prompt
         restart_program = input("\nWould you like to start over? Type 'Yes' for yes or 'No' for no.\n").title()

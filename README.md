@@ -17,4 +17,4 @@ new_york_city.csv
 and run with file:
 bikeshare.py
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Please see readme.txt for credits for python coding
